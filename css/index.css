@@ -1,5 +1,5 @@
-/* font-family: 'Mulish', sans-serif; */
-
+/* Start Header */
+/* Navigation Bar */
 header nav div a {
   font-family: "Mulish", sans-serif;
   color: #414141;
@@ -30,3 +30,30 @@ header nav button {
   background-color: #592fce;
   border-color: #592fce;
 }
+/* Hero content */
+header section .mt-7 {
+  margin-top: 70px;
+}
+
+header section .mb-7 {
+  margin-bottom: 70px;
+}
+
+.text-muted {
+  color: #a0a3bd !important;
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-primary {
+  color: #5f2eea !important;
+  font-family: "Mulish", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* End Header */
