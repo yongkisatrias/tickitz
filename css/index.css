@@ -57,3 +57,29 @@ header section .mb-7 {
   line-height: normal;
 }
 /* End Header */
+
+/* Start Now Showing */
+#now-showing {
+  background-color: #f5f6f8;
+}
+/* Header Tittle */
+.now-showing-tittle-left {
+  color: #5f2eea;
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.now-showing-tittle-right {
+  color: #5f2eea;
+  text-align: right;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  text-decoration: none;
+}
