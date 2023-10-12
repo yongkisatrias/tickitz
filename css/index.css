@@ -1,0 +1,32 @@
+/* font-family: 'Mulish', sans-serif; */
+
+header nav div a {
+  font-family: "Mulish", sans-serif;
+  color: #414141;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.08px;
+  text-decoration: none;
+}
+
+header nav button {
+  font-family: "Mulish", sans-serif;
+  color: #f7f7fc;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.75px;
+}
+
+.btn-primary {
+  background-color: #5f2eea;
+  border-color: #5f2eea;
+}
+
+.btn-primary:hover {
+  background-color: #592fce;
+  border-color: #592fce;
+}
