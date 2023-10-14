@@ -85,12 +85,38 @@ header section .mb-7 {
 }
 /* Now Showing Content */
 .movie-poster {
-  transition: 1s ease;
+  /* transition: 1s ease; */
+  cursor: pointer;
 }
 
-.movie-poster:hover {
+/* .movie-poster:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
+} */
+
+/* Start Upcoming Movies */
+/* Header Tittle */
+.upcoming-movies-tittle-left {
+  color: #14142b;
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
+
+.upcoming-movies-tittle-right {
+  color: #5f2eea;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  text-decoration: none;
+}
+
+/* End Upcoming Movies */
