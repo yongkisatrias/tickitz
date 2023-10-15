@@ -7,3 +7,70 @@
   visibility: visible;
   display: inherit;
 }
+
+.hero-content {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  color: #a0a3bd !important;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-primary {
+  color: #5f2eea !important;
+  font-family: "Mulish", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.now-showing {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#now-showing .content {
+  overflow: scroll;
+  padding-left: 115%;
+  gap: 10px;
+}
+
+.now-showing-tittle-left {
+  color: #5f2eea;
+  font-family: "Mulish", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.now-showing-tittle-right {
+  color: #5f2eea;
+  text-align: right;
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  text-decoration: none;
+}
+
+#upcoming-movies .content,
+.month-scroll {
+  overflow: scroll;
+  padding-left: 115%;
+  gap: 10px;
+}
