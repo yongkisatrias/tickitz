@@ -21,7 +21,7 @@
           <a href="#" class="navbar-menu d-desktop">Home</a>
           <a href="#" class="navbar-menu d-desktop">List Movie</a>
         </div>
-        <button type="button" class="btn btn-primary px-4 d-desktop">Sign Up</button>
+        <button type="button" class="btn btn-primary px-4 btn-sign-up d-desktop">Sign Up</button>
         <button class="navbar-toggler d-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <img src="assets/icons/hamburger-menu.svg" />
         </button>
@@ -34,6 +34,9 @@
           </li>
           <li class="nav-item d-flex justify-content-center mt-2 mb-2 navbar-menu">
             <a class="nav-link" href="#">list Movie</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center mt-2 mb-2 navbar-menu">
+            <button type="button" class="btn btn-primary btn-sign-up px-4">Sign Up</button>
           </li>
         </ul>
       </div>
@@ -54,14 +57,14 @@
 
     <!-- Start Now Showing -->
     <section id="now-showing">
-      <div class="container pt-7 pb-7 now-showing">
+      <div class="container pt-7 pb-7">
         <!-- Header Tittle -->
         <div class="d-flex justify-content-between align-items-center">
           <h2 class="now-showing-tittle-left">Now Showing</h2>
           <a class="now-showing-tittle-right" href="#">View All</a>
         </div>
         <!-- Now Showing Content -->
-        <div class="d-flex justify-content-around mt-5 mb-5 content">
+        <div class="movies-scroll mt-5 mb-5">
           <img class="movie-poster" src="assets/movie-poster/spiderman.jpg" alt="Spiderman" />
           <img class="movie-poster" src="assets/movie-poster/lion-king.jpg" alt="Lion King" />
           <img class="movie-poster" src="assets/movie-poster/john-wick-3.jpg" alt="John Wick 3" />
@@ -81,22 +84,22 @@
           <a class="upcoming-movies-tittle-right" href="#">View All</a>
         </div>
         <!-- Movies Month -->
-        <div class="d-flex justify-content-around">
-          <button type="button" class="btn btn-details px-4">Jan</button>
-          <button type="button" class="btn btn-details px-4">Feb</button>
-          <button type="button" class="btn btn-details px-4">Mar</button>
-          <button type="button" class="btn btn-details px-4">Apr</button>
+        <div class="text-center month-scroll mt-4">
+          <button type="button" class="btn btn-details px-4">January</button>
+          <button type="button" class="btn btn-details px-4">February</button>
+          <button type="button" class="btn btn-details px-4">March</button>
+          <button type="button" class="btn btn-details px-4">April</button>
           <button type="button" class="btn btn-details px-4">May</button>
-          <button type="button" class="btn btn-details px-4">Jun</button>
-          <button type="button" class="btn btn-details px-4">Jul</button>
-          <button type="button" class="btn btn-details px-4">Aug</button>
-          <button type="button" class="btn btn-details px-4">Sep</button>
-          <button type="button" class="btn btn-details px-4">Oct</button>
-          <button type="button" class="btn btn-details px-4">Nov</button>
-          <button type="button" class="btn btn-details px-4">Dec</button>
+          <button type="button" class="btn btn-details px-4">June</button>
+          <button type="button" class="btn btn-details px-4">July</button>
+          <button type="button" class="btn btn-details px-4">August</button>
+          <button type="button" class="btn btn-details px-4">September</button>
+          <button type="button" class="btn btn-details px-4">October</button>
+          <button type="button" class="btn btn-details px-4">November</button>
+          <button type="button" class="btn btn-details px-4">December</button>
         </div>
         <!-- Movies -->
-        <div class="d-flex justify-content-around mt-5 mb-5 content">
+        <div class="movies-scroll mt-5 mb-5">
           <div>
             <img class="movie-poster" src="assets/movie-poster/black-widow.jpg" alt="Black Widow" />
             <h4 class="text-center mt-2 movie-tittle">Black Widow</h4>
@@ -162,39 +165,47 @@
     <!-- Footer Start -->
     <footer class="container mt-10 mb-5">
       <div class="row">
-        <div class="col-md-4 col-sm-12 text-center">
-          <img src="assets/logo/Tickitz 2.svg" alt="Logo Tickitz" />
-          <p class="tickets-footer-motto">
+        <div class="col-md-4 col-sm-12">
+          <div class="d-flex justify-content-center-mobile">
+            <img src="assets/logo/Tickitz 2.svg" alt="Logo Tickitz" />
+          </div>
+          <p class="tickets-footer-motto text-center-mobile">
             Stop waiting in line. Buy tickets <br />
             conveniently, watch movies quietly.
           </p>
         </div>
-        <div class="col-md-2 col-sm-12 text-center explore">
+        <div class="col-md-2 col-sm-12 explore text-center-mobile">
           <h5>Explore</h5>
           <a class="mt-4 mb-4">Home</a>
           <a class="mt-4 mb-4">List Movie</a>
         </div>
-        <div class="col-md-3 col-sm-12 text-center">
-          <h5>Our Sponsor</h5>
-          <img src="assets/cinemas/ebv.id 2.svg" alt="" srcset="" style="display: block" class="mt-4 mb-4" />
-          <img src="assets/cinemas/CineOne21 2.svg" alt="" srcset="" style="display: block" class="mt-4 mb-4" />
-          <img src="assets/cinemas/hiflix 2.svg" alt="" srcset="" style="display: block" class="mt-4 mb-4" />
+        <div class="col-md-3 col-sm-12">
+          <h5 class="text-center-mobile">Our Sponsor</h5>
+          <div class="d-flex justify-content-center-mobile">
+            <img src="assets/cinemas/ebv.id 2.svg" alt="" srcset="" style="display: block" class="mt-4 mb-4" />
+          </div>
+          <div class="d-flex justify-content-center-mobile">
+            <img src="assets/cinemas/CineOne21 2.svg" alt="" srcset="" style="display: block" class="mt-4 mb-4" />
+          </div>
+          <div class="d-flex justify-content-center-mobile">
+            <img src="assets/cinemas/hiflix 2.svg" alt="" srcset="" style="display: block" class="mt-4 mb-4" />
+          </div>
         </div>
-        <div class="col-md-3 col-sm-12 text-center social-media">
-          <h5>Follow Us</h5>
-          <div class="d-flex align-items-center gap-3 mt-4 mb-4">
+        <div class="col-md-3 col-sm-12 social-media">
+          <h5 class="text-center-mobile">Follow Us</h5>
+          <div class="d-flex justify-content-center-mobile gap-3 mt-4 mb-4">
             <img src="assets/social-media/facebook.png" alt="" srcset="" />
             <a href="#">Tickitz Cinema id</a>
           </div>
-          <div class="d-flex align-items-center gap-3 mt-4 mb-4">
+          <div class="d-flex justify-content-center-mobile gap-3 mt-4 mb-4">
             <img src="assets/social-media/instagram.png" alt="" srcset="" />
             <a href="#">tickitz.id</a>
           </div>
-          <div class="d-flex align-items-center gap-3 mt-4 mb-4">
+          <div class="d-flex justify-content-center-mobile gap-3 mt-4 mb-4">
             <img src="assets/social-media/twitter.png" alt="" srcset="" />
             <a href="#">tickitz.id</a>
           </div>
-          <div class="d-flex align-items-center gap-3 mt-4 mb-4">
+          <div class="d-flex justify-content-center-mobile gap-3 mt-4 mb-4">
             <img src="assets/social-media/youtube.png" alt="" srcset="" />
             <a href="#">Tickitz Cinema id</a>
           </div>
