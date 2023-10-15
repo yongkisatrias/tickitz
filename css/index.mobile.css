@@ -1,0 +1,9 @@
+.d-desktop {
+  visibility: hidden;
+  display: none;
+}
+
+.d-mobile {
+  visibility: visible;
+  display: inherit;
+}

@@ -10,7 +10,15 @@
   margin-bottom: 100px;
 }
 
-header nav div a {
+.pt-7 {
+  padding-top: 70px;
+}
+
+.pb-7 {
+  padding-bottom: 70px;
+}
+
+.navbar-menu {
   font-family: "Mulish", sans-serif;
   color: #414141;
   font-size: 16px;
@@ -27,7 +35,7 @@ header nav button {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.75px;
 }
 
@@ -39,14 +47,6 @@ header nav button {
 .btn-primary:hover {
   background-color: #592fce;
   border-color: #592fce;
-}
-
-header section .mt-7 {
-  margin-top: 70px;
-}
-
-header section .mb-7 {
-  margin-bottom: 70px;
 }
 
 .text-muted {
@@ -216,4 +216,9 @@ header section .mb-7 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.5px;
+}
+
+.d-mobile {
+  visibility: hidden;
+  display: none;
 }
