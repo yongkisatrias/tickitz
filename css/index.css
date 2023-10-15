@@ -1,5 +1,7 @@
-/* Start Header */
-/* Navigation Bar */
+/* Font */
+/* font-family: 'Mulish', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
 header nav div a {
   font-family: "Mulish", sans-serif;
   color: #414141;
@@ -30,7 +32,7 @@ header nav button {
   background-color: #592fce;
   border-color: #592fce;
 }
-/* Hero content */
+
 header section .mt-7 {
   margin-top: 70px;
 }
@@ -56,13 +58,11 @@ header section .mb-7 {
   font-weight: 700;
   line-height: normal;
 }
-/* End Header */
 
-/* Start Now Showing */
 #now-showing {
   background-color: #f5f6f8;
 }
-/* Header Tittle */
+
 .now-showing-tittle-left {
   color: #5f2eea;
   font-family: "Mulish", sans-serif;
@@ -83,7 +83,7 @@ header section .mb-7 {
   letter-spacing: 0.15px;
   text-decoration: none;
 }
-/* Now Showing Content */
+
 .movie-poster {
   /* transition: 1s ease; */
   cursor: pointer;
@@ -96,8 +96,6 @@ header section .mb-7 {
   transition: 1s ease;
 } */
 
-/* Start Upcoming Movies */
-/* Header Tittle */
 .upcoming-movies-tittle-left {
   color: #14142b;
   font-family: "Mulish", sans-serif;
@@ -110,7 +108,7 @@ header section .mb-7 {
 .upcoming-movies-tittle-right {
   color: #5f2eea;
   text-align: right;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -119,4 +117,44 @@ header section .mb-7 {
   text-decoration: none;
 }
 
-/* End Upcoming Movies */
+.movie-tittle {
+  color: #14142b;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.5px;
+  letter-spacing: 0.15px;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.movie-genres {
+  color: #a0a3bd;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+
+.btn-details {
+  border-radius: 4px;
+  border: 1px solid #5f2eea;
+  color: #5f2eea;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-details:hover {
+  background-color: #5f2eea;
+  color: #fff;
+}
